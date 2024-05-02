@@ -99,6 +99,7 @@ public class UserDash extends javax.swing.JFrame {
         logout.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         logout.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ICONS/icons8-logout-24.png"))); // NOI18N
         logout.setText(" Logout");
+        logout.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         logout.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 logoutMouseClicked(evt);
@@ -123,6 +124,7 @@ public class UserDash extends javax.swing.JFrame {
 
         user.setBackground(new java.awt.Color(0, 153, 51));
         user.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
+        user.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         user.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 userMouseClicked(evt);
@@ -151,6 +153,7 @@ public class UserDash extends javax.swing.JFrame {
 
         aa.setBackground(new java.awt.Color(0, 153, 51));
         aa.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
+        aa.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         aa.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 aaMouseEntered(evt);

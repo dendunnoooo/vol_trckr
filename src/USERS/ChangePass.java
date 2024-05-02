@@ -139,6 +139,7 @@ public class ChangePass extends javax.swing.JFrame {
 
         save.setBackground(new java.awt.Color(0, 153, 51));
         save.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
+        save.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         save.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 saveMouseClicked(evt);
@@ -163,6 +164,7 @@ public class ChangePass extends javax.swing.JFrame {
 
         back.setBackground(new java.awt.Color(0, 153, 51));
         back.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
+        back.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         back.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 backMouseClicked(evt);
@@ -208,6 +210,7 @@ public class ChangePass extends javax.swing.JFrame {
         ckbox.setBackground(new java.awt.Color(204, 255, 204));
         ckbox.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         ckbox.setText(" View Password");
+        ckbox.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         ckbox.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ckboxActionPerformed(evt);

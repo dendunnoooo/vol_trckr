@@ -103,6 +103,7 @@ public class AccDetails extends javax.swing.JFrame {
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel8.setText("Change Password");
+        jLabel8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel8.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel8MouseClicked(evt);
@@ -122,6 +123,7 @@ public class AccDetails extends javax.swing.JFrame {
         jPanel3.add(userID, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 0, 140, 40));
 
         jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ICONS/icons8-arrow-back-24 (1).png"))); // NOI18N
+        jLabel11.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel11.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel11MouseClicked(evt);
@@ -143,12 +145,12 @@ public class AccDetails extends javax.swing.JFrame {
         uname.setBounds(210, 250, 310, 30);
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel2.setText("Firstname ");
+        jLabel2.setText("First Name ");
         jPanel1.add(jLabel2);
         jLabel2.setBounds(210, 80, 110, 20);
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel3.setText("Lastname");
+        jLabel3.setText("Last Name");
         jPanel1.add(jLabel3);
         jLabel3.setBounds(210, 130, 110, 20);
 
@@ -180,6 +182,7 @@ public class AccDetails extends javax.swing.JFrame {
         acctype.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         acctype.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Admin", "User" }));
         acctype.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
+        acctype.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel1.add(acctype);
         acctype.setBounds(210, 300, 310, 30);
 
